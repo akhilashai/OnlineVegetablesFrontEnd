@@ -1,0 +1,42 @@
+.customerdata{
+    font-family: 'Times New Roman', Times, serif;
+   position:relative;
+   float:left;
+   flex-direction:column;
+   min-width: 0;
+   min-height: 250px;
+   word-wrap: break-word;
+   background-color:rgba(239, 250, 136, 0.947);
+   opacity: 10;
+   background-clip: border-box;
+   border: 5px solid  rgba(252, 163, 104, 0.826) ;
+   border-radius: 10px;
+}
+.customerlist{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-header{
+    color: rgb(252, 98, 15);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ .card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+ }
+
+
+.img6{
+    background: linear-gradient(to right, #d1d184 0%, #e0b091 100%);
+    background-image: url("C:\Users\sprint 2\Sprint2Evalution\online-vegetable-sales\public\images\FreshVegetables.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position:absolute;
+    top: 0;
+    left: 0;
+    
+} 

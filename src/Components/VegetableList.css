@@ -1,0 +1,81 @@
+.vegetabledata{
+    font-family: 'Times New Roman', Times, serif;
+    float:left;
+    position: relative;
+   flex-direction:column;
+   min-width: 0;
+   word-wrap: break-word;
+   background-color:rgba(239, 250, 136, 0.947);
+   opacity: 10;
+   background-clip: border-box;
+   border: 5px solid rgba(252, 163, 104, 0.826) ;
+   border-radius: 10px;
+}
+.vegetablelist{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.editvegetable{
+    font-family: 'Times New Roman', Times, serif;
+   position: relative;
+   opacity: 10;
+   display: flex;
+   flex-direction:column;
+   min-width: 0;
+   word-wrap: break-word;
+   background-color:rgb(242, 237, 237);
+   background-clip: border-box;
+   border: 5px solid rgba(220, 213, 213, 0.826) ;
+   border-radius: 10px;
+
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(242, 237, 237);
+    border-style:inset;
+    border: 5px solid rgba(220, 213, 213, 0.826) ;
+    border-radius: 10px;
+    margin-left:10%;
+    width:30%
+
+}
+
+.card-header {
+    padding: 0.25rem 1.5rem;
+    margin-bottom: 0;
+    color: rgb(9, 10, 9);
+    background-color: rgba(125, 168, 244, 0.909);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+ }
+ 
+ .card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+ 
+ }
+ .img7{
+    background: linear-gradient(to right, #d1d184 0%, #e0b091 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position:absolute;
+    top: 0;
+    left: 0;
+    float: left;
+}  
+
+
+.img8{
+    background-image: url("C:\Users\sprint 2\Sprint2Evalution\online-vegetable-sales\public\images\FreshVegetables.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position:absolute;
+    top: 0;
+    left: 0;
+}

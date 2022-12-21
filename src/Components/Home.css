@@ -1,0 +1,99 @@
+/*.img2{
+    background-image: url("C:\Users\Sprint 2\online-vegetables-sales\public\images\2526_R0lVIEpFTiA4MjctMTA.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+   
+}*/
+
+img {
+  max-width: 100%;
+}
+
+.slider-container {
+  height: 100%;
+  width: 100%;
+  position:fixed;
+  overflow: hidden;
+  text-align: center;
+  
+}
+.menu {
+  position: absolute;
+  left: 0;
+  z-index: 900;
+  width: 100%;
+  bottom: 0;
+}
+.menu label {
+  cursor: pointer;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: rgba(242, 244, 241, 0.925);
+  border-radius: 50px;
+  margin: 0 0.2em 1em;
+}
+.menu label:hover,
+.menu label:focus {
+  background: #1470e9;
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 100%;
+  z-index: 10;
+  padding: 8em 1em 0;
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: left 0s 0.5s;
+  
+  
+}
+[id^="slide"]:checked + .slide {
+  left: 0;
+  z-index: 100;
+  transition:top 0.65s ease-out;
+  
+  
+}
+.slide-1 {
+  background-image: url("C:\Users\sprint 2\Sprint2Evalution\online-vegetable-sales\public\images\Home2.jpeg");
+  background-repeat: no-repeat;
+  position:fixed;
+}
+.slide-2 {
+  background-image: url("C:\Users\sprint 2\Sprint2Evalution\online-vegetable-sales\public\images\home3.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+}
+
+.slide-3{
+  background-image: url("C:\Users\sprint 2\Sprint2Evalution\online-vegetable-sales\public\images\home1.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  position:fixed;
+  
+
+}

@@ -1,0 +1,55 @@
+.feedbackdata{
+    font-family: 'Times New Roman', Times, serif;
+   position:relative;
+   float:left;
+   flex-direction:column;
+   min-width: 0;
+   min-height: 250px;
+   word-wrap: break-word;
+   background-color:rgba(239, 250, 136, 0.947);
+   opacity: 10;
+   background-clip: border-box;
+   border: 5px solid  rgba(252, 163, 104, 0.826) ;
+   border-radius: 10px;
+}
+
+.editfeedback{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(242, 237, 237);
+    opacity: 10;
+    border-style:inset;
+    border: 5px solid rgba(220, 213, 213, 0.826) ;
+    border-radius: 10px;
+    margin-left: 60%;
+    width:30%
+}
+
+.feedbacklist{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img14{
+    background: linear-gradient(to right, #d1d184 0%, #e0b091 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+.img15{
+    background-image: url("C:\Users\sprint 2\Sprint2Evalution\online-vegetable-sales\public\images\feedbacklist.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position:absolute;
+    top: 0;
+    left: 0;
+}

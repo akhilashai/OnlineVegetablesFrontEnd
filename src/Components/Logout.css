@@ -1,0 +1,12 @@
+.img9{
+    background-image: url("C:\Users\sprint 2\Sprint2Evalution\online-vegetable-sales\public\images\logout.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position:absolute;
+    top: 0;
+    left: 0;
+}

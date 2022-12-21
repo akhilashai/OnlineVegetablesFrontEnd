@@ -1,0 +1,23 @@
+.feedback{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(242, 237, 237);
+    opacity: 10;
+    border-style:inset;
+    border: 5px solid rgba(220, 213, 213, 0.826) ;
+    border-radius: 10px;
+    margin-left:15%;
+    width:30%
+}
+
+.img16{
+    background-image: url("C:\Users\sprint 2\Sprint2Evalution\online-vegetable-sales\public\images\feedback.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position:absolute;
+    top: 0;
+    left: 0;
+}

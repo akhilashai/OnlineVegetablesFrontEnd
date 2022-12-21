@@ -1,0 +1,14 @@
+.orderlist{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(242, 237, 237);
+    opacity: 10;
+    border-style:inset;
+    border: 5px solid rgba(220, 213, 213, 0.826) ;
+    border-radius: 10px;
+    margin:auto;
+    width:30%
+}
+.totalprice{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(242, 237, 237);
+}
